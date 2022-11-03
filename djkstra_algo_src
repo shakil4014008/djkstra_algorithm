@@ -1,0 +1,16 @@
+class Solution:
+    def segregateElements(self, arr, n):
+        # Your code goes here
+       
+        neg = []
+        pos = []
+        for i in range(n):
+            if arr[i]<0:
+                neg.append(arr[i])
+            else:
+                pos.append(arr[i])
+        c = 0
+        for i in pos+neg:
+            arr[c] = i
+            c += 1
+        
