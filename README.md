@@ -1,7 +1,7 @@
 # djkstra_algorithm
 
 
-````
+````Python
  #Function to find the shortest distance of all the vertices; from the source vertex S.
     
     def dijkstra(self, V, adj, S):
